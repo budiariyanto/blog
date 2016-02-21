@@ -1,0 +1,47 @@
+baseurl = "http://blog.thewhitepal.com/"
+title = "Budi Ariyanto"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Budi Ariyanto"
+disqusShortname = "budisqus"
+googleAnalytics = "UA-57148145-1"
+
+[Author]
+    name = "Budi Ariyanto"
+    profile = "https://google.com/+BudiAriyanto"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = false
+    headline = "My Personal Blog"
+    description = "About My Actvities"
+    github = "https://github.com/budiariyanto"
+    linkedin = "https://linkedin.com/in/fx.budi.ariyanto/"
+    gplus = "https://google.com/+BudiAriyanto"
+    twitter = "https://twitter.com/fxbudiariyanto"
+    #stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+#[[menu.main]]
+#    name = "Projects"
+#    url = "/project/"
+#    weight = 2
+
+#[[menu.main]]
+#    name = "Contact"
+#    url = "/page/contact/"
+#    weight = 3
+
+#[[menu.main]]
+#    name = "About"
+#    url = "/page/about/"
+#    weight = 4
