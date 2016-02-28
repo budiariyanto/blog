@@ -54,6 +54,6 @@ Jika perilaku kita buruk, pengikut atau anak buah kita akan menjadi berperilaku 
 
 - **Mempunyai idealisme**
 
-     Karena harus bisa mengarahkan dan mengambil keputusan, maka pemimpin harus mempunyai idealisme. Tidak boleh terombang-ambing oleh lingkungan, situasi dan kondisi. Anda bisa membaca lebih lengkap mengenai [idealis](/blog/2014/05/17/menjadi-idealis) pada artikel saya ini.
+     Karena harus bisa mengarahkan dan mengambil keputusan, maka pemimpin harus mempunyai idealisme. Tidak boleh terombang-ambing oleh lingkungan, situasi dan kondisi. Anda bisa membaca lebih lengkap mengenai [idealis]({{< relref "menjadi-idealis.md" >}}) pada artikel saya ini.
 
 Nah, itulah syarat-syarat yang harus dimiliki seorang pemimpin di luar pekerjaan teknis yang diembannya. Mungkin masih ada yang belum disebutkan. Maka dari itu, tidak heran jika mereka dibayar mahal, dan juga tidak usah iri. Oke, demikianlah apa yang saya pikirkan mengenai seorang pemimpin. Tetap sehat, tetap semangat dan tetap maknyus!
