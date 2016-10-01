@@ -1,9 +1,9 @@
-baseurl = "http://blog.thewhitepal.com/"
+baseurl = "https://budiariyanto.github.io/"
 title = "Budi Ariyanto"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "Budi Ariyanto"
-disqusShortname = "blogthewhitepalcom"
+disqusShortname = "budiariyanto"
 googleAnalytics = "UA-57148145-1"
 
 [Author]
@@ -30,6 +30,11 @@ googleAnalytics = "UA-57148145-1"
     name = "Blog"
     url = "/"
     weight = 1
+
+[[menu.main]]
+    name = "Quotes"
+    url = "/quote/"
+    weight = 2
 
 #[[menu.main]]
 #    name = "Projects"
