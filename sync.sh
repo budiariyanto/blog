@@ -1,4 +1,5 @@
 hugo
+mkdir ../budiariyanto.github.io
 rm -rf ../budiariyanto.github.io/*
 cp -R public/* ../budiariyanto.github.io/
 cd ../budiariyanto.github.io/
