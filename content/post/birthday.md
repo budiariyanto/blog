@@ -13,6 +13,7 @@ Kerap kali orang memaknai hari ulang tahun hanya sampai di situ saja. Menurut sa
 ulang tahun mempunyai dua buah perspektif dan dapat menjadi bahan refleksi diri.
 Perspektif yang pertama adalah umur kita bertambah satu dan perspektif yang
 kedua adalah umur kita berkurang satu.
+
 Ketika kita memaknai ulang tahun sebagai umur kita bertambah satu, maka kita akan
 mengingat pencapaian yang sudah kita lakukan dan pengalaman hidup seperti apa yang
 sudah kita lalui, juga tentunya kita ingat mengucap syukur kepada Tuhan karena
@@ -24,6 +25,7 @@ kita akan ingat mimpi kita yang belum tercapai, kesalahan-kesalahan yang pernah
 kita perbuat dan belum sempat kita perbaiki, sifat-sifat kita yang buruk dan
 sebagainya. Hal-hal tersebut dapat menjadi bahan refleksi untuk memperbaiki
 diri.
+
 Perpaduan dari kedua perspektif ini menjadikan hati kita melihat ke masa lalu,
 sekarang dan masa depan. Ulang tahun beserta dengan perayaan hanya merupakan suatu tradisi
 dari masa ke masa. Hadiah ulang tahun sifatnya hanya membantu orang yang
