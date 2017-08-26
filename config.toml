@@ -22,6 +22,15 @@ googleAnalytics = "UA-57148145-1"
     gplus = "https://google.com/+BudiAriyanto"
     twitter = "https://twitter.com/fxbudiariyanto"
     #stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
+    email = "fx.budi.ariyanto@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = true
+    dateFormat = "Mon, January 2, 2006"
+    #highlightJsUrl = ""
+    highlightJsLocalUrl = "js/highlight.min.js"
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
