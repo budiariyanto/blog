@@ -1,5 +1,9 @@
 hugo
-mkdir ../budiariyanto.github.io
+
+if [ ! -d ../budiariyanto.github.io ]; then
+    git clone git@github.com:budiariyanto/budiariyanto.github.io ../budiariyanto.github.io
+fi
+
 rm -rf ../budiariyanto.github.io/*
 cp -R public/* ../budiariyanto.github.io/
 git add content/post/*.md
