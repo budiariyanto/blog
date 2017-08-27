@@ -51,7 +51,7 @@ Gradle task adalah task yang kita coding sendiri menggunakan bahasa pemrograman 
 
 Selanjutnya kita akan bahas isi dari file ```build.gradle``` ini yang merupakan konfigurasi dari root project yang kita buat. Saya beri contoh isi filenya:
 
-```groovy
+```gradle
 // Dengan apply java plugin, kita dibuatkan task-task untuk membuild program java kita
 // Untuk mengeceknya, kita bisa jalankan perintah: gradle tasks
 // nanti akan tampil task-task apa saja yang available. Bandingkan daftar tasknya ketika kita belum apply plugin java
@@ -120,7 +120,7 @@ subprojects {
 ## Membuat Subproject
 Root project sudah dibuat. Saatnya kita membuat subproject. Untuk membuatnya sangat gampang. Cukup membuat direktori baru di dalam direktori root project. Misalkan kita buat namanya ```coba_gradle_subproject```. Di dalam direktori ini, kita buat layout project java yang sudah dibahas sebelumnya. Jangan lupa kita juga wajib membuat file ```build.gradle``` di dalam direktori ```coba_gradle_subproject``` ini. Sebagai contoh, isinya hanya seperti ini:
 
-```groovy
+```gradle
 version = '1.0.0.SNAPSHOT'
 ```
 
@@ -130,7 +130,7 @@ Pada file ini, kita juga bisa mendeklarasikan lagi konfigurasi yang sama dengan 
 
 Nah, subproject sudah dibuat. Bagaimana caranya supaya root project mengenali subproject ini? Mari kita kembali lagi ke direktori ```coba_gradle```. Dalam direktori tersebut, buatlah file bernama ```settings.gradle``` dan deklarasikan subprojectnya di dalam file tersebut seperti berikut:
 
-```groovy
+```gradle
 include 'coba_gradle_subproject'
 
 // tambahkan subproject lain jika ada
