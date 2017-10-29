@@ -3,7 +3,7 @@ title = "Manjaro Troubleshooting"
 description = "Troubleshooting permasalahan di Manjaro linux"
 author = "Budi Ariyanto"
 date = 2017-09-14T23:26:59+07:00
-tags = [linux]
+tags = ["linux"]
 +++
 
 [Manjaro](https://manjaro.org) adalah salah satu distro linux yang masih baru. Distro ini based on [Arch Linux](https://www.archlinux.org). Manjaro menarik sekali untuk dicoba. Setelah saya coba, ada beberapa masalah di hardware. Nah pada artikel ini, saya akan share permasalahan yang saya hadapi dan solusinya. Sebagai informasi, saya menggunakan laptop Acer E5-475G-541U. Siapa tau solusi yg saya share di sini berguna untuk Anda meskipun beda laptop, karena permasalahan yg sama bisa saja terjadi di berbagai macam laptop yang berbeda.
