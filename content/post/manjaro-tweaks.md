@@ -11,6 +11,7 @@ tags = ["linux"]
 ## Sound Related
 ### Ada bunyi buzz/crackling seperti bunyi listrik ketika laptop tidak dalam kondisi dicharge dan sound device tidak dalam keadaan bekerja (idle).
 Bunyi buzz/crackling ini disebabkan karena Manjaro menggunakan [TLP](http://linrunner.de/en/tlp/tlp.html). TLP ini berfungsi mengatur power di setiap device yang ada di laptop termasuk sound device. Sayangnya ternyata tidak semua device lancar menggunakan TLP. Di laptop saya, ketika sound device idle maka TLP akan melakukan power save pada sound device tersebut, sehingga mungkin listrik yang dialirkan dihemat. Tapi efek sampingnya adalah terjadinya bunyi buzz/crackling. Untuk menonaktifkan TLP pada sound device, perintahnya adalah:
+
 1. Buka file `/etc/default/tlp` menggunakan text editor favorit Anda.
 1. Cari bagian `SOUND_POWER_SAVE_ON_BAT=1`.
 1. Ganti menjadi `SOUND_POWER_SAVE_ON_BAT=0`
@@ -23,6 +24,7 @@ Contohnya video tearing bisa dilihat [di sini](https://en.wikipedia.org/wiki/Scr
 Sebetulnya hal ini tidak terlalu menjadi masalah. Hanya saja mengganggu
 kesempurnaan menonton ketika kita menonton film yg kita suka. Untuk mengatasi
 hal ini, ikuti langkah berikut:
+
 1. Edit file `/etc/X11/mhwd.d/intel.conf` menggunakan text editor favorit Anda.
 1. Cari bagian device, lalu tambahkan `Option  "TearFree" "true"` pada section
    device. Kira-kira seperti ini:
