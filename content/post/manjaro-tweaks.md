@@ -26,12 +26,12 @@ kesempurnaan menonton ketika kita menonton film yg kita suka. Untuk mengatasi
 hal ini, ikuti langkah berikut:
 
 1. Edit file `/etc/X11/mhwd.d/intel.conf` menggunakan text editor favorit Anda.
-1. Cari bagian device, lalu tambahkan `Option  "TearFree" "true"` pada section
-   device. Kira-kira seperti ini:
-   ```
-   Section "Device"
-        Identifier  "Intel Graphics"
-        Driver      "intel"
-        Option      "TearFree" "true"
-   EndSection
-   ```
+1. Cari bagian device, lalu tambahkan `Option  "TearFree" "true"` pada section device. Kira-kira seperti ini:
+
+    ```
+    Section "Device"
+         Identifier  "Intel Graphics"
+         Driver      "intel"
+         Option      "TearFree" "true"
+    EndSection
+    ```
