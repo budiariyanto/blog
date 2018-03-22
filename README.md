@@ -5,7 +5,7 @@ This is my personal blog
 Note for myself on cloning this repo:
 
 ```
-git clone git@github.com:budiariyanto/blog --recurese-submodule
+git clone git@github.com:budiariyanto/blog --recurse-submodule
 ```
 
 Done!
