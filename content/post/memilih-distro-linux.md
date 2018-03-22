@@ -1,10 +1,17 @@
 +++
 author = "Budi Ariyanto"
 date = "2014-01-25T17:50:04+07:00"
-description = ""
-tags = ["opinion"]
 title = "Memilih Distro Linux"
-
+slug = "memilih-distro-linux"
+categories = [
+    "System Administration"
+]
+tags = [
+    "opinion"
+]
+keywords = [
+    "choosing linux distro"
+]
 +++
 Saya sudah cukup lama berkelana gonta-ganti distro linux, sejak akhir tahun 2006. Distro yang pernah saya pakai adalah [Ubuntu](http://www.ubuntu.com), [openSUSE](http://www.opensuse.org), [Fedora](http://fedoraproject.org), [Mint](http://www.linuxmint.com), [Slackware](http://www.slackware.com) dan [Arch](http://www.archlinux.org). Pernah juga hanya sekedar coba-coba Backtrack(sekarang namanya [Kali Linux](http://www.kali.org)), [Slax](http://www.slax.org) dan [Puppy](http://puppylinux.org). Orang yang baru berkenalan dengan linux biasanya bernasib sama seperti saya waktu dulu. Bingung dengan banyaknya pilihan distro linux yang sudah seperti hutan belantara. Karena bingung, akhirnya bertanya ke sana kemari distro linux yang ini dengan yang itu bagus yang mana? Jawaban orang-orang yang ditanya pun bervariasi. Orang-orang biasanya menjawab dengan hal-hal yang bagus-bagus mengenai distro linux yang dia gunakan. Karena semuanya bagus, bertanya kepada orang-orang yang sudah menggunakan distro linux tidak menjawab kebingungan saya. Yang ada malah tambah bingung karena kok semuanya bagus. Akhirnya ya harus coba-coba sendiri. Lama kelamaan, saya tau bahwa distro linux itu memang ada faktor selera dan masing-masing distro linux mempunyai rancangan dan tujuan masing-masing. Jadi, tidak ada distro linux yang paling bagus. Semua tergantung selera dan kebutuhan. Maka dari itu, saya ingin membantu Anda yang baru berkenalan dengan linux, dengan membagikan pengalaman saya mengenai perjalanan saya belajar linux. Semoga membantu.
 

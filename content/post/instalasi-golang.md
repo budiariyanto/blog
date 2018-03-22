@@ -1,9 +1,18 @@
 +++
 author = "Budi Ariyanto"
 date = "2016-10-01T21:11:36+07:00"
-description = "Tutorial golang (1)"
-tags = [ "tutorial", "golang" ]
 title = "Instalasi Golang"
+slug = "instalasi-golang"
+categories = [
+    "Programming"
+]
+tags = [
+    "tutorial", 
+    "golang" 
+]
+keywords = [
+    "installing golang"
+]
 +++
 
 Bahasa pemrograman saat ini berkembang begitu cepat. Banyak bahasa pemrograman baru bermunculan dan beragam. Bahasa pemrograman baru yang sempat saya coba adalah go atau biasa disebut golang(go language) yang dikembangkan oleh Google. Golang dirilis pada tahun 2009, dan saat artikel ini ditulis sudah mencapai versi 1.7.1.
@@ -15,7 +24,7 @@ Kita bisa mendownload golang di [sini](https://golang.org/dl/). Downloadlah yg c
 Setelah kita download, extractlah di sembarang folder. Sebelum bisa ngoding menggunakan tools di golang, kita harus setup 2 hal, yaitu environment variabel `GOROOT` dan `GOPATH`. `GOROOT` kita set menuju path dimana golang diextract. `GOPATH` kita set terserah di folder mana, yang penting tidak menjadi satu di dalam `GOROOT` supaya kalau kita upgrade golang nya akan mudah, tinggal hapus dan extract ulang. Tidak usah menyelamatkan folder `GOPATH`.
 
 Tambahkan environment variabel `GOROOT/bin` dan `GOPATH/bin`  pada variabel `PATH` di dalam `/etc/profile.d/go.sh` supaya binary dari project yang kita buat maupun binary dependency dari github/tempat lain bisa ditemukan oleh OS menggunakan script di bawah ini:
-```bash
+``` bash
 export GOROOT=/data/development/go
 export GOPATH=/data/development/gopkg
 
@@ -27,7 +36,8 @@ Setelah selesai setup environment variable, logout dan login ulang atau restart 
 
 ## Check Instalasi Golang
 Untuk mengecek apakah instalasi golang kita sudah benar atau belum, ketik `go` di terminal. Seharusnya akan muncul output seperti ini:
-```
+
+``` bash
     Go is a tool for managing Go source code.
 
     Usage:
@@ -68,4 +78,5 @@ Untuk mengecek apakah instalasi golang kita sudah benar atau belum, ketik `go` d
 
     Use "go help [topic]" for more information about that topic.
 ```
+
 Jika instalasi sudah benar, maka kita sudah siap ngoding.

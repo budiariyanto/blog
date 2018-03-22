@@ -1,10 +1,17 @@
 +++
 author = "Budi Ariyanto"
 date = "2013-12-26T17:19:49+07:00"
-description = "My perspective on good leader"
-tags = ["opinion"]
 title = "Good Leader"
-
+slug = "good-leader"
+categories = [
+    "Life Retrospective"
+]
+tags = [
+    "opinion", "leadership"
+]
+keywords = [
+    "good leader", "leadership"
+]
 +++
 {{< youtube _3ASoBrFGlc >}}
 

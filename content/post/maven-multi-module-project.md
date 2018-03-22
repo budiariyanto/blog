@@ -1,10 +1,19 @@
 +++
 author = "Budi Ariyanto"
-date = "2014-05-19T17:19:49+07:00"
-description = ""
-tags = ["tutorial"]
 title = "Maven Multi Module Project"
-
+date = "2014-05-19T17:19:49+07:00"
+slug = "maven-multi-module-project"
+categories = [
+    "Programming"
+]
+tags = [
+    "tutorial",
+    "maven",
+    "java"
+]
+keywords = [
+    "maven multi module"
+]
 +++
 Dalam membuat satu project besar, sebaiknya kita bagi menjadi beberapa project kecil. Project kecil ini tujuannya untuk membagi project supaya strukturnya projectnya lebih mudah dipahami dan juga lebih modular. Maven mempunyai fitur untuk membantu merealisasikan hal ini, yaitu project inheritance dan project aggregation. Mari kita bahas satu per satu.
 

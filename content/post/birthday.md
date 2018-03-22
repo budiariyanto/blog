@@ -1,10 +1,17 @@
 +++
 author = "Budi Ariyanto"
 date = "2017-05-01T20:40:28+07:00"
-description = ""
-tags = ["life"]
 title = "Memaknai Hari Ulang Tahun"
-
+slug = "memaknai-hari-ulang-tahun"
+categories = [
+    "Life Retrospective"
+]
+tags = [
+    "life"
+]
+keywords = [
+    "ulang tahun"
+]
 +++
 
 Hari ulang tahun umumnya ditandai dengan perayaan bersama orang terdekat kita.

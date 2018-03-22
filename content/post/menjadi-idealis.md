@@ -1,10 +1,17 @@
 +++
 author = "Budi Ariyanto"
 date = "2014-05-19T17:56:45+07:00"
-description = ""
-tags = ["opinion"]
 title = "Menjadi Idealis"
-
+slug = "menjadi-idealis"
+categories = [
+    "Life Retrospective"
+]
+tags = [
+    "opinion"
+]
+keywords = [
+    "idealis"
+]
 +++
 "Udah laaahh.. nggak usah idealis gituu...". Kalimat ini sering saya dengar dari teman-teman saya. Biasanya, kalimat ini keluar kalau saya bercerita mengenai hal-hal yang ingin saya lakukan dan menurut saya benar, tapi kebanyakan orang tidak mau melakukannya. Contohnya, di tempat saya bekerja, terus terang masalah salary tidak menarik, tidak kompetitif. Sebagai programmer, saya sering kerja lembur karena deadline proyek yang singkat. Terkadang pekerjaan malah saya lanjutkan lagi di rumah. Tidak ada penghargaan untuk kerja lembur saya, berupa uang ataupun dalam bentuk lain. Jadi, lembur atau tidak take home pay saya sama saja. Meskipun begitu, saya tetap ingin proyek yang saya kerjakan selesai dengan baik dan tepat waktu. Karena hal ini, saya dibilang idealis oleh beberapa teman saya. Entah kenapa, orang idealis itu kesannya negatif.
 

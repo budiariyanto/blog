@@ -1,10 +1,18 @@
 +++
 author = "Budi Ariyanto"
 date = "2014-01-17T17:26:33+07:00"
-description = ""
-tags = ["tutorial"]
 title = "Tutorial Singkat Maven"
-
+categories = [
+    "Programming"
+]
+tags = [
+    "tutorial",
+    "maven",
+    "java"
+]
+keywords = [
+    "beginning maven"
+]
 +++
 ## Apa itu Maven?
 Maven adalah suatu *tool* untuk menstandarkan dan *memanage* project, mempermudah proses *build* dalam suatu project, mendefinisikan secara jelas apa saja isi project dan mempermudah dalam membagi-bagikan (*share*) file .jar di semua project. Maven sering di-versuskan dengan ant, atau bahkan ada yang bilang sama saja. Menurut saya, maven mempunyai tujuan yang lebih luas daripada ant yang hanya fokus untuk *build tool* dan membuat task-task tertentu saja. Fitur-fitur ant ada pada maven bahkan maven bisa diintegrasikan dengan ant via maven plugin.

@@ -1,61 +1,153 @@
-baseurl = "https://budiariyanto.github.io/"
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Budi Ariyanto"
-theme = "ghostwriter"
-languageCode = "en-us"
-copyright = "Budi Ariyanto"
-disqusShortname = "budiariyanto"
-googleAnalytics = "UA-57148145-1"
+enableRobotsTXT = true
+enableEmoji = true
+theme = "even"
 
-[Author]
-    name = "Budi Ariyanto"
-    profile = "https://google.com/+BudiAriyanto"
+hasCJKLanguage = false     # has chinese/japanese/korean ?
+paginate = 5                                              
+disqusShortname = "budiariyanto"      # disqus_shortname
+googleAnalytics = "UA-57148145-1"      # UA-XXXXXXXX-X
+copyright = ""            # default: author.name ↓        
 
-[Taxonomies]
-    tag = "tags"
+[author]                  # essential
+  name = "Budi Ariyanto"
 
-[Params]
-    intro = false
-    headline = "My Personal Blog"
-    description = "About My Actvities"
-    github = "https://github.com/budiariyanto"
-    linkedin = "https://linkedin.com/in/budiariyanto/"
-    gplus = "https://google.com/+BudiAriyanto"
-    twitter = "https://twitter.com/fxbudiariyanto"
-    #stackoverflow = "http://stackoverflow.com/users/XXX/YYY"
-    #email = "fx.budi.ariyanto@gmail.com"
-    opengraph = true
-    shareTwitter = true
-    shareFacebook = true
-    shareGooglePlus = true
-    shareLinkedIn = true
-    dateFormat = "Mon, January 2, 2006"
-    #highlightJsUrl = ""
-    highlightJsLocalUrl = "js/highlight.min.js"
+[sitemap]                 # essential
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
-[Permalinks]
-    post = "/:year/:month/:day/:filename/"
-
+[[menu.main]]             # config your menu    
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
 [[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
-
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
 [[menu.main]]
-    name = "Quotes"
-    url = "/quote/"
-    weight = 2
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
 
-#[[menu.main]]
-#    name = "Projects"
-#    url = "/project/"
-#    weight = 2
+[params]
+  version = "3.x"           # Used to give a friendly message when you have an incompatible update
+  debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-#[[menu.main]]
-#    name = "Contact"
-#    url = "/page/contact/"
-#    weight = 3
+  since = "2013"            # Site creation time
 
-#[[menu.main]]
-#    name = "About"
-#    url = "/page/about/"
-#    weight = 4
+  # site info (optional)
+  logoTitle = "tail -f posts.log"        # default: the title value
+  keywords = ["Budi Ariyanto", "budi","code", "programming", "activities", "opinion"]
+  description = "Budi Ariyanto"
+
+  # paginate of archives, tags and categories
+  archivePaginate = 5
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  # dateFormatToUse = "2006-01-02"
+  dateFormatToUse = "2 Jan 2006"
+
+  # show word count and read time ?
+  moreMeta = true
+
+  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+  toc = true
+  autoCollapseToc = false   # Auto expand and collapse toc
+  fancybox = true           # see https://github.com/fancyapps/fancybox
+  mathjax = false           # see https://www.mathjax.org/
+  mathjaxEnableSingleDollar = false
+
+  postMetaInFooter = true   # contain author, lastMod, markdown link, license
+  linkToMarkDown = false    # Only effective when hugo will output .md files.
+  contentCopyright = '<a rel="license noopener" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  #changyanAppid = ""        # Changyan app id
+  #changyanAppkey = ""       # Changyan app key
+  #livereUID = ""            # LiveRe UID
+  #baidu_push = false        # baidu push
+  #baidu_analytics = ""      # Baidu Analytics
+  #baidu_verification = ""   # Baidu Verification
+  #google_verification = ""  # Google_Verification
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []
+  customJS = []
+
+  [params.publicCDN]        # load these files from public cdn
+    enable = false
+    jquery = '<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>'
+    slideout = '<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>'
+    fancyboxJs = '<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>'
+    fancyboxCss = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">'
+    gitmentJS = '<script src="https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js" crossorigin="anonymous"></script>'
+    gitmentCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css" crossorigin="anonymous">'
+
+  [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+
+  [params.flowchartDiagrams]# see https://blog.olowolo.com/example-site/post/js-flowchart-diagrams/
+    enable = true
+    options = ""
+
+  [params.sequenceDiagrams] # see https://blog.olowolo.com/example-site/post/js-sequence-diagrams/
+    enable = true
+    options = ""            # default: "{theme: 'simple'}"
+
+  [params.busuanzi]         # count web traffic by busuanzi
+    enable = false
+    siteUV = true
+    sitePV = true
+    pagePV = true
+
+  [params.reward]
+    enable = false
+    wechat = "/path/to/your/wechat-qr-code.png"
+    alipay = "/path/to/your/alipay-qr-code.png"
+
+  [params.social]
+    a-email = "mailto:fx.budi.ariyanto@gmail.com"
+    #b-stack-overflow = "http://localhost:1313"
+    c-twitter = "https://twitter.com/fxbudiariyanto"
+    #d-facebook = "http://localhost:1313"
+    e-linkedin = "https://linkedin.com/in/budiariyanto/"
+    f-google = "https://google.com/+BudiAriyanto"
+    g-github = "https://github.com/budiariyanto"
+    #h-weibo = "http://localhost:1313"
+    #i-zhihu = "http://localhost:1313"
+    #j-douban = "http://localhost:1313"
+    #k-pocket = "http://localhost:1313"
+    #l-tumblr = "http://localhost:1313"
+    #m-instagram = "http://localhost:1313"
+
+# Uncomment these options to make hugo output .md files.
+#[mediaTypes]
+#  [mediaTypes."text/plain"]
+#    suffix = "md"
+#
+#[outputFormats.MarkDown]
+#  mediaType = "text/plain"
+#  isPlainText = true
+#  isHTML = false
+#
+#[outputs]
+#  home = ["HTML", "RSS"]
+#  page = ["HTML", "MarkDown"]
+#  section = ["HTML", "RSS"]
+#  taxonomy = ["HTML", "RSS"]
+#  taxonomyTerm = ["HTML"]

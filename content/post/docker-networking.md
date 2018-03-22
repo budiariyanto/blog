@@ -1,10 +1,17 @@
 +++
-date = "2017-03-22T10:56:18+07:00"
-tags = ["docker", ]
 author = "Budi Ariyanto"
-description = ""
+date = "2017-03-22T10:56:18+07:00"
 title = "Fix Docker Networking Problem"
-
+slug = "fix-docker-networking-problem"
+categories = [
+    "Tech FAQ"
+]
+tags = [
+    "docker"
+]
+keywords = [
+    "docker networking issue"
+]
 +++
 
 We may met situations that docker cannot connect to the internet. And the error message look like this:
@@ -41,6 +48,7 @@ W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/trusty-security/Releas
 W: Some index files failed to download. They have been ignored, or old ones used instead.
 ....
 ```
+<!--more-->
 This because docker network not properly set up yet. To set network on docker, we can do this:
 
 Find primary and secondary dns server using this command:

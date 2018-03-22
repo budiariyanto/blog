@@ -1,10 +1,18 @@
 +++
 author = "Budi Ariyanto"
 date = "2014-06-16T03:29:56+07:00"
-description = ""
-tags = ["tutorial"]
 title = "Membuat Project Java Dengan Gradle"
-
+slug = "membuat-project-java-dengan-gradle"
+categories = [
+    "Programming"
+]
+tags = [
+    "tutorial"
+]
+keywords = [
+    "create java project with gradle",
+    "gradle project"
+]
 +++
 Build tools adalah sebuah tools atau alat untuk mengcompile suatu project berisi source code yang kita buat. Build tools banyak macamnya dan sudah ada sejak lama.
 
