@@ -1,3 +1,3 @@
-[submodule "themes/ghostwriter"]
-	path = themes/ghostwriter
-	url = git@github.com:budiariyanto/ghostwriter
+[submodule "themes/even"]
+	path = themes/even
+	url = git@github.com:budiariyanto/hugo-theme-even
